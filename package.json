@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -18,6 +19,11 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+    "rules": {
+      "jsx-a11y/anchor-is-valid":"off",
+      "jsx-a11y/anchor-has-content":"off"
+
+    },
     "extends": [
       "react-app",
       "react-app/jest"
